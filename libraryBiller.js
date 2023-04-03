@@ -1,9 +1,4 @@
-/*
-Code = 10000002001-Res
-PLN Prepaid Advice
-210 Payment Response
-230 Payment Advice Response
-*/
+
 
 let biller_lib = [
      {
