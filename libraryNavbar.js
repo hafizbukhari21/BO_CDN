@@ -14,6 +14,17 @@ let navbar = [
             }
         ]
     },
+    {
+        billerName :"PLN Non Taglis",
+        detail:[
+            {
+                detailName:"All MTI",
+                code:"10000002002"
+
+            },
+          
+        ]
+    }
     // {
     //     billerName :"PLN Prepaid DUmmy",
     //     detail:[

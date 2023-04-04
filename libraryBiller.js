@@ -70,7 +70,36 @@ let biller_lib = [
                     "Avail Token 2|17"
 
             ]
-            }
+        },
+        {
+            /*
+            PLN Prepaid non taglis
+            */
+            code:"10000002002",
+            title:"Biller - PLN Non Taglis:All MTI",
+            expression:[
+                "Registration Number|20",
+                "Transaction Code|3",
+                "Transaction Name|25",
+                "Registration Date|8",
+                "Expiration Date|8",
+                "Subscriber ID|12",
+                "Subscriber Name|30",
+                "PLN Reference Number|32",
+                "Switcher Reference Number|32",
+                "Service Unit|5",
+                "Service Unit Address|35",
+                "Service Unit Phone|15",
+                "Total Transaction Amount Minor Unit|1",
+                "Total Transaction Amount|17",
+                "PLN -BILL Minor Unit|1",
+                "PLN -BILL Minor Unit (RPTAG)|17",
+                "Administration Charge Minor Unit|1",
+                "Administration Charge (AC)|12",
+                "Reff Label|10"
+            ]
+        }
+        
 
         
 ]
