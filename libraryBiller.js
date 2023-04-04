@@ -98,7 +98,7 @@ let biller_lib = [
                 "Administration Charge (AC)|12",
                 "Reff Label|10"
             ]
-        }
+        },
 
         {
             /*
