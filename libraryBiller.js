@@ -41,7 +41,36 @@ let biller_lib = [
             "Label Ref|10",
             "Biller Message|74",
         ]
-        }
+        },
+        {
+            /*
+            PLN Prepaid Advice
+            210 Inquery Request
+            200 payment Response
+            220 Advice Request
+            */
+            code:"10000002001-Res2",
+            title:"Biller - PLN Prepaid: 210 Inquery Request, 200 payment Response,220 Advice Request",
+            expression:[
+                    "Meter ID / Customer ID|20",
+                    "ID Code|1",
+                    "Buying Options|1",
+                    "Date|8",
+                    "Time|6",
+                    "Customer Name|30",
+                    "Buy Amount|12",
+                    "Admin Fee|12",
+                    "Reference|32",
+                    "Customer ID|32",
+                    "Reff|10",
+                    "Meter Serial Number|15",
+                    "Customer Name|25",
+                    "Tarif / Daya|17",
+                    "Avail Token 1|17",
+                    "Avail Token 2|17"
+
+            ]
+            }
 
         
 ]
