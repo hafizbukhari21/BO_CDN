@@ -24,6 +24,17 @@ let navbar = [
             },
           
         ]
+    },
+    {
+        billerName :"Telkomsel Paket Data & Pulsa",
+        detail:[
+            {
+                detailName:"210 Purchase Response (Approve)",
+                code:"1013-210-pur-approve"
+
+            },
+          
+        ]
     }
     
 ]

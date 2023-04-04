@@ -99,7 +99,25 @@ let biller_lib = [
                 "Reff Label|10"
             ]
         }
-        
 
+        {
+            /*
+            Telkomsel Paket Data
+            210 Purchase Approve
+            */
+            code:"1013-210-pur-approve",
+            title:"Biller - Telkomel Data:210 Purchase Approve",
+            expression:[
+                "Phone Number|13",
+                "Amount|12",
+                "Biaya Admin|10",
+                "Window Period|8",
+                "Serial Number|16"
+            ]
+        }
         
 ]
+
+
+
+//1013
