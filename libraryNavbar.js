@@ -1,3 +1,4 @@
+//Biller Navbar
 let navbar = [
     {
         billerName :"PLN Prepaid",
@@ -37,4 +38,32 @@ let navbar = [
         ]
     }
     
+]
+
+
+
+
+
+//Main Navbar
+let navbarFeature =  [
+    {
+        name:"Transaction Data",
+        isBiller:false,
+        codeNavbar:1
+    },
+    {
+        name:"EJ Report",
+        isBiller:false,
+        codeNavbar:2
+    },
+    {
+        name:"Recon .txt",
+        isBiller:false,
+        codeNavbar:3
+    },
+    {
+        name:"Trasanction Data Detail",
+        isBiller:false,
+        codeNavbar:4
+    }
 ]

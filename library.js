@@ -110,6 +110,26 @@ let title_Transaction_data_detail = [
 ]
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let parseLogic = `
     if(choosen==1) Parse("Input Transaction Data",title,";",isBiller_parse)
     else if(choosen==2) Parse("Input EJ",titleEJ,";",isBiller_parse)
@@ -127,29 +147,7 @@ let parseLogic = `
 
 
 
-//navbar Static 
-let navbarFeature =  [
-    {
-        name:"Transaction Data",
-        isBiller:false,
-        codeNavbar:1
-    },
-    {
-        name:"EJ Report",
-        isBiller:false,
-        codeNavbar:2
-    },
-    {
-        name:"Recon .txt",
-        isBiller:false,
-        codeNavbar:3
-    },
-    {
-        name:"Trasanction Data Detail",
-        isBiller:false,
-        codeNavbar:4
-    }
-]
+
 
 
 
