@@ -77,8 +77,9 @@ let titleRecon = [
 ]
 
 
+//transacion data detail
 let title_Transaction_data_detail = [
-    "MTI|N-4|",
+    "Testing Transacion Data Detail MTI|N-4|",
     "Processing Code|AN-6|",
     "Response Code|N-2|Iso-field 39",
     "Approval Code|AN-6|Iso-field 38",
