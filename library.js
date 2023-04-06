@@ -110,5 +110,50 @@ let title_Transaction_data_detail = [
 ]
 
 
+let parseLogic = `
+    if(choosen==1) Parse("Input Transaction Data",title,";",isBiller_parse)
+    else if(choosen==2) Parse("Input EJ",titleEJ,";",isBiller_parse)
+    else if(choosen==3) Parse("Input Recon",titleRecon,"|",isBiller_parse)
+    else if(choosen==4) Parse("Input Transaction Data Detail",title_Transaction_data_detail,";",isBiller_parse)
+
+
+    //khusus biller code lihat di library
+    else{
+      let Biller = biller_lib.find(e=>e.code ==choosen)
+      Parse(Biller.title,Biller.expression,"",isBiller_parse)
+    }
+
+`
+
+
+
+//navbar Static 
+let navbarFeature =  [
+    {
+        name:"Transaction Data",
+        isBiller:false,
+        codeNavbar:1
+    },
+    {
+        name:"EJ Report",
+        isBiller:false,
+        codeNavbar:2
+    },
+    {
+        name:"Recon .txt",
+        isBiller:false,
+        codeNavbar:3
+    },
+    {
+        name:"Trasanction Data Detail",
+        isBiller:false,
+        codeNavbar:4
+    }
+]
+
+
+
+
+
 
 
