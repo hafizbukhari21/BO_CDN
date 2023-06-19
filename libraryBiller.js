@@ -114,6 +114,21 @@ let biller_lib = [
                 "Window Period|8",
                 "Serial Number|16"
             ]
+        },
+
+        {
+            /*
+            Telkomsel Paket Data
+            210 Purchase Approve
+            */
+            code:"01-TransferInformation",
+            title:"Transfer Transfer Information",
+            expression:[
+                "Owner Name of Destination Account|30",
+                "Customer Reference Number|16",
+                "Cardholder Name|30"
+              
+            ]
         }
         
 ]

@@ -36,6 +36,17 @@ let navbar = [
             },
           
         ]
+    },
+    {
+        billerName :"Transfer",
+        detail:[
+            {
+                detailName:"Transfer Information",
+                code:"01-TransferInformation"
+
+            },
+          
+        ]
     }
     
 ]
