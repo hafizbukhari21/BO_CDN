@@ -72,11 +72,11 @@ let navbarFeature =  [
         isBiller:false,
         codeNavbar:3
     },
-    {
-        name:"Trasanction Data Detail",
-        isBiller:false,
-        codeNavbar:4
-    },
+    // {
+    //     name:"Trasanction Data Detail",
+    //     isBiller:false,
+    //     codeNavbar:4
+    // },
     {
         name:"Invoice Data Detail",
         isBiller:false,
