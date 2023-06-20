@@ -1,8 +1,8 @@
 //transaction Data Report
 let title = [
     "MTI|N-4|",
-    "Processing Code|AN-6|",
-    "Response Code|N-2|Iso-field 39",
+    "Processing Code|AN-6| Internal Processing Code<br>Refer to ISO Processing Code Data Element",
+    "Response Code|N-2|Iso-field 39 ",
     "Approval Code|AN-6|Iso-field 38",
     "PAN|AN-19|Iso-field 35",
     "Switch Receiving Date|yymmdd|",
@@ -21,12 +21,12 @@ let title = [
     "Switching Bussiness Date|yymmdd|",
     "Internal Flag|N..2|",
     "Channel Type|AN-4|",
-    "Destination Participant ID|AN..3|",
-    "Destination Account Number|AN..28|",
-    "Destination Institution Indetification Code|N..11|",
-    "Admin Fee|AN..16|Iso-field 48",
+    "Destination Participant ID|AN..3| Values: mengacu pada Point G. (default: 0) Untuktransaksi pembayaran diisi sama dengan AcquirerParticipant ID<br><br>Khusus untuk transaksi pembayaran Acquirer Only atau Biller Only akan berisi kode bank sebagai Biller dengan alias: Kode Bank, bisa mengacu pada Point G <br>Untuk transaksi interkoneksi berisikan kode prinsipal",
+    "Destination Account Number|AN..28| Hanya diisi jika bank berperan sebagai Destination default: 0) Untuk transaksi pembayaran, field ini berisi ID Pembayaran dengan format left justified padded with spaces",
+    "Destination Institution Indetification Code|N..11| Iso-field 127 Untuk transaksi pembayaran, field ini berisi Kode Produk Pembayaran dengan format left justifiedpadded with spaces <br><br> Untuk transaksi interkoneksi berisikan kode bank yang terdaftar sebagai member prinsipal tujuan. <br><br> Selain yang disebutkan diatas maka di isi 0.",
+    "Admin Fee|AN..16|Iso-field 48<br>• Untuk transaksi informasi saldo, penarikan tunai, PIN Change, Registrasi berisi blank <br>• Untuk transaksi transfer, berisi Customer  Reference Number<br>• Untuk transaksi pembayaran, berisi Admin Fee (Contoh: 1000.00)",
     "Biller Amount|N..12|Biller Amount = Trx Amount-Admin Fee",
-    "Principal Code|N-3|"
+    "Principal Code|N-3| 001 ARTAJASA<br>002 RINTIS<br>003 ALTO<br>004 JALIN<br>005 Master"
 
 ]
 
