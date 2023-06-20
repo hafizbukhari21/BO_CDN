@@ -76,5 +76,11 @@ let navbarFeature =  [
         name:"Trasanction Data Detail",
         isBiller:false,
         codeNavbar:4
+    },
+    {
+        name:"Invoice Data Detail",
+        isBiller:false,
+        codeNavbar:5
     }
+
 ]
