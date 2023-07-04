@@ -130,7 +130,7 @@ let title_Invoice_data_detail = [
     "Transaction Amount|N..12| Iso-field 4",
     "Card Acceptor Terminal Indenti|AN-16| Iso-field 41",
     "Switching Bussines Date|yymmdd| Switching Bussines Date",
-    "Internal Flag|N..2|-",
+    "Internal Flag|N..2|‘1’ : Trx Berhasil, (0210, 1 record)<br> ‘2’ : Trx Berhasil Pembatalan (0210& 0420, 2 record) <br>‘3’ : Trx Gagal (0210, 1 record) <br>‘4’ : Trx Suspect (0210, 1 record) <br>‘5’ : Trx Transfer Suspect (0210, 1 record<br>‘6’ : Trx Transfer Suspect Urgent Priority (0210&0420, 2 record)  <br>‘15’ : Trx Pembayaran Suspect (0210, 1 record) <br>‘16’ : Trx Pembayaran Suspect Urgent Priority (0210&0420, 2 record) ",
     "Channel Type|AN-2|-",
     "Destination Participant ID|AN-3| Dest Bank ID",
     "Detination Account Number|AN-28| Dest Account Number <br> Hanya diisi jika bank berperan sebagai Destination(default: 0) Untuk transaksi pembayaran, field ini berisi ID Pembayaran dengan format left justified padded with spaces",
