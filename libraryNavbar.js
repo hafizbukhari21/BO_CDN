@@ -47,6 +47,17 @@ let navbar = [
             },
           
         ]
+    },
+    {
+        billerName :"TLF-Mandiri",
+        detail:[
+            {
+                detailName:"TLF-Mandiri",
+                code:"tlf-mandiri-spec"
+
+            },
+          
+        ]
     }
     
 ]

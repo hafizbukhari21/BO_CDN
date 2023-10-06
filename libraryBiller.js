@@ -129,6 +129,71 @@ let biller_lib = [
                 "Cardholder Name|30"
               
             ]
+        },
+
+        {
+            /*
+            Parse TLF Mandiri
+            
+            */
+            code:"tlf-mandiri-spec",
+            title:"Transfer Transfer Information",
+            expression:[
+                "DAT-TIM|18",
+                "REC-TYP|2",
+                "AUTH-PPD|4",
+                "TERM|24",
+                "CRD|30",
+                "BRCH-ID|4",
+                "REGN-ID|4",
+                "TYP-CDE|4",
+                "RTE-STAT|C",
+                "ORIG|1",
+                "RESPONDER|1",
+                "ENTRY-TIM|18",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+                "Cardholder Name|30",
+
+              
+            ]
         }
         
 ]
