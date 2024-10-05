@@ -51,6 +51,9 @@ let titleEJ = [
     "DeviceType_4|N-2|",
     "ATM Status Completion|N-1|",
     "States|N|",
+    "Dispense Status|A|",
+    "Cancel Reason|N-3|",
+    "Final Status|N-20|",
 ]
 
 //Cek Rekon
