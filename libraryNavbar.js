@@ -74,7 +74,7 @@ let navbarFeature =  [
         codeNavbar:1
     },
     {
-        name:"EJ Report",
+        name:"EJ Report / EFTS",
         isBiller:false,
         codeNavbar:2
     },
