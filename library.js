@@ -156,22 +156,20 @@ let title_Invoice_data_detail = [
 let  SPPTDLN_Report_Raw= [
     "Reference||Nilai referensi unik untuk setiap transaksi, disusun dengan format: <br/> <4CharPSPCode>_<unixTimeStamp>_<retrievalRefNumber >",
     "Total Amount||Nilai total tagihan transaksi dalam “IDR”",
-    "VAT Amount||",
-    "Merchant Amount||",
-    "Transaction Fee||",
-    "Transaction VAT||",
-    "Currency||",
-    "Status||",
-    "Transaction Time||",
-    "Client Name||",
-    "PSP Name||",
-    "Sector||",
-    "Audit Flag||",
-    "Audit Reason||",
-    "PSP Reconcilled||",
-    "PSP Reconcilled AT||",
-
-
+    "VAT Amount||Nilai total Pajak (VAT) yang dikenakan pada transaksi. Nilai ini merupakan<br/>nilai yang akan di settle ke Jalin.",
+    "Merchant Amount||Jumlah dana bersih yang diterima merchant setelah potongan biaya dan pajak",
+    "Transaction Fee||Biaya transaksi yang dikenakan untuk proses pembayaran",
+    "Transaction VAT||Nilai pajak yang dikenakan atas biaya transaksi (VAT atas fee)",
+    "Currency||Valid value “IDR”",
+    "Status||Parameter penentu yang digunakan untuk mengidentifikasi apakah suatu<br/>transaksi dikenakan pemotongan Pajak Pertambahan Nilai (VAT) atau tidak.",
+    "Transaction Time||Waktu terjadinya transaksi",
+    "Client Name||Nama Merchant",
+    "PSP Name||Nama Institusi Issuer",
+    "Sector||Kategori atau jenis usaha dari merchant yang melakukan transasksi",
+    "Audit Flag||Penanda di Jalin bahwa sebuah transaksi membutuhkan investigasi",
+    "Audit Reason||Deskripsi dari Audit Flagged",
+    "PSP Reconcilled||PSP sudah memverifikasi bahwa data transaksi sesuai (match) TRUE.Data<br/>tersebut dianggap valid untuk digunakan dalam pelaporan, settlement, atau<br/>perhitungan PPN di SPP-TDLN",
+    "PSP Reconcilled AT||Waktu terjadinya rekonsiliasi transaksi dengan PSP.",
 ]
 
 
