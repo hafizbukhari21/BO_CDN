@@ -73,6 +73,7 @@ let navbarFeature =  [
         isBiller:false,
         codeNavbar:1
     },
+    /*
     {
         name:"EJ Report / EFTS",
         isBiller:false,
@@ -83,16 +84,19 @@ let navbarFeature =  [
         isBiller:false,
         codeNavbar:3
     },
+    */
     // {
     //     name:"Trasanction Data Detail",
     //     isBiller:false,
     //     codeNavbar:4
     // },
+    /*
     {
         name:"Invoice Data Detail",
         isBiller:false,
         codeNavbar:5
     },
+    */
     {
         name:"Raw Data - SPPTDLN",
         isBiller:false,
