@@ -153,6 +153,27 @@ let title_Invoice_data_detail = [
 
 ]
 
+let  SPPTDLN_Report_Raw= [
+    "Reference||Nilai referensi unik untuk setiap transaksi, disusun dengan format: <br/> <4CharPSPCode>_<unixTimeStamp>_<retrievalRefNumber >",
+    "Total Amount||Nilai total tagihan transaksi dalam “IDR”",
+    "VAT Amount||",
+    "Merchant Amount||",
+    "Transaction Fee||",
+    "Transaction VAT||",
+    "Currency||",
+    "Status||",
+    "Transaction Time||",
+    "Client Name||",
+    "PSP Name||",
+    "Sector||",
+    "Audit Flag||",
+    "Audit Reason||",
+    "PSP Reconcilled||",
+    "PSP Reconcilled AT||",
+
+
+]
+
 
 
 
@@ -180,6 +201,8 @@ let parseLogic = `
     else if(choosen==3) Parse("Input Recon",titleRecon,"|",isBiller_parse)
     else if(choosen==4) Parse("Input Transaction Data Detail",title_Transaction_data_detail,";",isBiller_parse)
     else if(choosen==5) Parse("Input Invoice Data Detail",title_Invoice_data_detail,"|",isBiller_parse)
+
+    else if(choosen==6) Parse("Input SPPTDLN Report Raw",SPPTDLN_Report_Raw,"|",isBiller_parse)
 
 
 
