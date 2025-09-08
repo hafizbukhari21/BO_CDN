@@ -92,6 +92,11 @@ let navbarFeature =  [
         name:"Invoice Data Detail",
         isBiller:false,
         codeNavbar:5
+    },
+    {
+        name:"Raw Data - SPPTDLN",
+        isBiller:false,
+        codeNavbar:6
     }
 
 ]
