@@ -200,7 +200,7 @@ let parseLogic = `
     else if(choosen==4) Parse("Input Transaction Data Detail",title_Transaction_data_detail,";",isBiller_parse)
     else if(choosen==5) Parse("Input Invoice Data Detail",title_Invoice_data_detail,"|",isBiller_parse)
 
-    else if(choosen==6) Parse("Input SPPTDLN Report Raw",SPPTDLN_Report_Raw,",",isBiller_parse)
+    else if(choosen==6) Parse("Input SPPTDLN Report Raw",SPPTDLN_Report_Raw,";",isBiller_parse)
 
 
 
